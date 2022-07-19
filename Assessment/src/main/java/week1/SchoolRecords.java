@@ -1,16 +1,16 @@
 package week1;
 
 public class SchoolRecords {
-	int schoolID;
+	int schoolId;
 	String schoolName;
 	String schoolAddress;
 	String schoolDetails;
 	
-	void addRecords(int schoolID,String schoolName,String schoolAddress)
+	void addSchoolRecords(int schoolId,String schoolName,String schoolAddress)
 	{
-		schoolDetails=schoolID+" - "+schoolName+" - "+schoolAddress;
+		schoolDetails=schoolId+", "+schoolName+", "+schoolAddress;
 	}
-	void dispRecords()
+	void dispSchoolRecords()
 	{
 		System.out.println(schoolDetails);
 	}
