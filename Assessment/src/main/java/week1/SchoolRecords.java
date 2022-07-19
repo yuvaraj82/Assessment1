@@ -6,11 +6,11 @@ public class SchoolRecords {
 	String schoolAddress;
 	String schoolDetails;
 	
-	void addSchoolRecords(int schoolId,String schoolName,String schoolAddress)
+	void addSchoolDetails(int schoolId,String schoolName,String schoolAddress)
 	{
 		schoolDetails=schoolId+", "+schoolName+", "+schoolAddress;
 	}
-	void dispSchoolRecords()
+	void dispSchoolDetails()
 	{
 		System.out.println(schoolDetails);
 	}
