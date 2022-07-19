@@ -2,17 +2,17 @@ package week1;
 
 public class SI {
 	static int principleAmount;
-	static int rateOfInterest;
+	static int rateInterest;
 	static int tenure;
 	static int simpleInterest;
 	static int totalAmount;
 	
-	void simpleInterest(int principleAmount,int rateOfInterest,int tenure)
+	void simpleInterest(int principleAmount,int rateInterest,int tenure)
 	{
-		simpleInterest=(principleAmount*rateOfInterest*tenure)/100;
-		System.out.println("Simple Interest is "+simpleInterest);
+		simpleInterest=(principleAmount*rateInterest*tenure)/100;
+		System.out.println("Simple Interest is= "+simpleInterest);
 		totalAmount=(principleAmount+simpleInterest);
-		System.out.println("Total amount to be paid after loan duration ends is "+totalAmount);
+		System.out.println("Total amount to be paid= "+totalAmount);
 		
 		
 	}
